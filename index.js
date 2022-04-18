@@ -15,7 +15,6 @@ function switchTab(tabNum) {
     document.getElementById("tab1").style.display = "none";
     document.getElementById("tab2").style.display = "none";
     document.getElementById("tab3").style.display = "none";
-    document.getElementById("tab4").style.display = "none";
     if (element.style.display === "none") {
         element.style.display = "block";
     }
