@@ -1,20 +1,13 @@
 const lines = [
-    "Being funny since 2006",
-    "Hopefully this doesn't violate 39 copyright laws",
-    "This text should not appear. (jk it totally should)",
-    "ayo il fait quoi le chien?",
+    "Not a furry for sure",
+    "Hopefully this doesn't violate 69 copyright laws",
+    "Join my discord :)",
+    "ayo il fait quoi le chien? Il mange du pain",
     "French, and proud!",
-    "The typical nerd in your high school class.",
-    "You thought it was just a funny message, but IT WAS I, DI-",
-    "When 0.1.6?",
-    "And knuckles",
-    "Local rhythm game addict",
-    "Born to oneshot forced to cue",
+   "Friday Night Funkin' addict",
     "Yeah I'm just a normal gaming youtuber, I swear.",
     "h",
-    "Unable to locate the funny.",
-    "I have too many projects, I seriously need to calm down!",
-    "I am 1 kilometer from your location, and flying towards it rapidly."
+    "I have too many fnf mods to code, I seriously need to calm down!"
 ]
 
 function switchTab(tabNum) {
