@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>#Guigui's website!</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="topTabs">
+            <button onclick="switchTab(1)">Home</button>
+            <button onclick="switchTab(2)">Presentation</button>
+            <button onclick="switchTab(3)">My projects/contributions</button>
+            <button onclick="switchTab(4)">Rhythm Doctor</button>
+        </div>
+        <div id="tab1" class="tabs">
+            <div class="title">
+                <img src="./assets/images/hastagguiguiLogo.png" alt="#Guigui's logo" width="300px">
+                <h1>#Guigui's website</h1>
+                <p class="subtitle" id="modifyableQuote">text.english.hastagguigui.swagText[64]</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>Social media accounts</h3>
+                <ul class="socialMedia">
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://twitter.com/@_GuiguiYT', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Twitter.svg"
+                            width="20px" style="vertical-align: middle;"/> Twitter main account</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://discord.gg/fyUqHqmujn', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Discord.svg"
+                            width="20px" style="vertical-align: middle;"/> Discord server</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://github.com/HastagGuigui', '_blank')" class="buttonLink"><img
+                            src="./assets/images/GitHub.png"
+                            width="20px" style="vertical-align: middle;"/> Github profile</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://www.youtube.com/channel/UCLgu-4-oMqRZVbgwbgzIo7A', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Youtube.png"
+                            width="20px" style="vertical-align: middle;"/> Youtube channel</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>Have some of my favourite videos!</h3>
+                <div style="height:min-content; text-align: left; margin: 5px;">
+                    <ul class="ytVideos">
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KaeWLiC5lAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xn83VVU1aA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7-0RgrHEFuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SyotpUuNY8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RuKEOPUh5GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="tab2" class="tabs" style="display: none;">
+            <div class="title">
+                <h2>Presentation</h2>
+                <p class="subtitle">This is just who I am!</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>About me</h3>
+                <ul class="presentationLines">
+                    <li>15 year old teenager</li>
+                    <li>He/Him (I'm okay with they/them!)</li>
+                    <li>Aspergers syndrom</li>
+                    <li>French (can speak english and a little bit of spanish)</li>
+                    <li>Real name: Guillaume G.</li>
+                    <li>Currently in high school</li>
+                    <li>Birthday: 29th September</li>
+                    <li>You can call me Gui, Guigui, or #Guigui.</li>
+                    <li>If you need to credit me in any way, I'd prefer as "#Guigui", but if you can't use the #, use my twitter handle, <a href="https://twitter.com/@_GuiguiYT" target="_blank">@_GuiguiYT</a>.</li>
+                </ul>
+                <span></span>
+                <h3>My hobbies/interests</h3>
+                <ul class="presentationLines">
+                    <li>Videogames (especially rhythm games)</li>
+                    <li>Programming (of course...)</li>
+                    <li>Drawing and 3D modeling (<a href="https://twitter.com/@_GuiguiYT" target="_blank">Here's my art account!</a>)</li>
+                    <li>I think that's it.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="tab3" class="tabs" style="display: none;">
+            <div class="title">
+                <h2>Projects I've made / contributed to</h2>
+                <p class="subtitle">Just a simple list of my projects and contributions.</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>My stuff</h3>
+                <ul class="myStuff">
+                    <li><button onclick="window.open('https://gamejolt.com/games/guiguifirstgame/510109', '_blank')" class="buttonLink">
+                        <div class="imageBG" style="background-image: url('./assets/images/gfgcwIcon.png'); background-position: 20% 40%;"></div>#Guigui's First Game: Corrupted Worlds
+                    </button></li>
+                    <li><button onclick="window.open('https://top.gg/bot/549294278149668874', '_blank')" class="buttonLink">
+                        <div class="imageBG" style="background-image: url('./assets/images/g-uiIcon.png'); background-position: 50% 20%;"></div>Protogen G-UI
+                    </button></li>
+                    <li><button onclick="window.open('https://github.com/HastagGuigui/PlayGamesFromDiscord', '_blank')" class="buttonLink">PlayGamesFromDiscord</button></li>
+                </ul>
+            </div>
+        </div>
+        <div id="tab4" class="tabs" style="display: none;">
+            <div class="title">
+                <h2>Rhythm Doctor levels</h2>
+                <p class="subtitle">some of my RD levels, because most of the time I have no idea what to do lmao</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <ul>
+                    <li class="myStuff">
+                        <div><button onclick="window.open('https://www.youtube.com/watch?v=oXaAtzyF5bI', '_blank')" class="buttonLink">
+                            <p class="altFont">Starlight</p>
+                            <p>G-UI comes into existence (warning, bad level)</p>
+                        </button></div>
+                        <div><button onclick="window.open('https://www.youtube.com/watch?v=5_6Mj2m8Ggg', '_blank')" class="buttonLink">
+                            <p class="altFont">Je possède des thunes</p>
+                            <p>Samurai has acquired the money</p>
+                        </button></div>
+                        <div><button onclick="window.open('https://www.youtube.com/watch?v=RuKEOPUh5GE', '_blank')" class="buttonLink">
+                            <p class="altFont">Split EX</p>
+                            <p>it's not "very tough" he just has a good gaming chair <img src="https://cdn.discordapp.com/emojis/464221612120735745.png?size=44" alt=":politician:" style="display: inline-block;"></p>
+                        </button></div>
+                    </li>
+                    <li class="myStuff">
+                        <div><button onclick="window.open('https://cdn.discordapp.com/attachments/611380148431749151/903298999954575441/CG5_-_dropthebassonthestereo.rdzip', '_blank')" class="buttonLink">
+                            <p class="altFont">dropthebassonthestereo</p>
+                            <p>parappa gets threatened by charlie green the 5th (Collab with 1257Plays)</p>
+                        </button></div>
+                        <div><button onclick="window.open('https://www.youtube.com/watch?v=WzLUFuFFDS8', '_blank')" class="buttonLink">
+                            <p class="altFont">Closing in</p>
+                            <p>Cole brew (Blue edition) realises he has a blue border around his vision</p>
+                        </button></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="tab5" class="tabs" style="display: none;">
+            <div class="title">
+                <h2>Presentation of my characters</h2>
+                <p class="subtitle">They are very nice, they don't bite!</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>Gui</h3>
+                <p>A teenage anthro-latios.</p>
+
+                <h3>G-UI</h3>
+                <p>A wholesome protogen.</p>
+
+                <h3>#Guigui</h3>
+                <p>it's me! :D</p>
+
+                <h3>[null]</h3>
+                <p>I'd rather not talk about them.</p>
+            </div>
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+</html>
