@@ -79,13 +79,24 @@ h1,h2{
     background-color: #00bfff;
 }
 
-ul.ytVideos {
+ul.ffVideos {
     padding-left: 0px;
     text-align: center;
     overflow-x: scroll;
     white-space: nowrap;
 }
-ul.ytVideos > li {
+ul.ffVideos > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul.ffVideos {
+    padding-left: 0px;
+    text-align: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+ul.ffVideos > li {
     display: inline-block;
     padding: 0px 20px;
 }
