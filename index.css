@@ -90,13 +90,14 @@ ul.ffVideos > li {
     padding: 0px 20px;
 }
 
-ul.ffVideos {
+ul.fnfVideos {
     padding-left: 0px;
     text-align: center;
     overflow-x: scroll;
     white-space: nowrap;
 }
-ul.ffVideos > li {
+
+ul.fnfVideos > li {
     display: inline-block;
     padding: 0px 20px;
 }
