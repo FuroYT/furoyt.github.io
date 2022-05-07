@@ -1,121 +1,122 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="twitter:description" content="Your go to for desktop customization">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta property="og:title" content="Furo">
-	<meta property="og:image:type" content="image/png">
-	<meta property="og:image:width" content="1339">
-	<meta property="og:image:height" content="622">
-	<!-- <link rel="stylesheet" href="css/debug.css"> -->
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="icon" href="img/furo.png" type="image/png">
-	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-	<title>Furo's Website</title>
-</head>
+<html>
+    <head>
+        <title>Furo's website!</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
 
-<body class="no-select">
-	<div id="herosectionback"></div>
-	<nav class="navbar has-background-transparent is-sticky" aria-label="main navigation">
-		<div class="navbar-brand has-background-transparent">
-			<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-			</a>
-		</div>
-
-		<div id="navbarBasicExample" class="navbar-menu navbar-end has-background-transparent">
-			<div class="navbar-item has-background-transparent">
-				<a class="
-							navbar-item
-							has-background-transparent has-text-white
-							m-1
-						" href="https://furoyt.tk/">
-					Home
-				</a>
-
-				<a class="
-							navbar-item
-							has-background-transparent has-text-white
-							m-1
-						" href="https://furoyt.tk/info">
-					About Me
-				</a>
-				
-				<a class="
-							navbar-item
-							has-background-transparent has-text-white
-							m-1
-						" href="https://furoyt.tk/fnf-mods">
-					FNF Mods
-				</a>
-
-				<a class="
-							navbar-item
-							has-background-transparent has-text-white
-							m-1
-						" href="https://furoyt.tk/faq">
-					FAQ
-				</a>
-
-				<a class="
-							navbar-item
-							has-background-transparent has-text-white
-							m-1
-						" href="https://furoyt.tk/socials">
-					Social Medias
-				</a>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Hero Section -->
-	<section class="
-				hero
-				has-align-items-center
-				is-fullheight-with-navbar
-				has-background-transparent
-			" id="herosection" style="position: relative">
-		<div class="columns is-vcentered hero-body m-6">
-			<div class="column has-text-left">
-				<div style="display: inline-block">
-					<h1 class="
-								is-size-1-override
-								has-text-left has-text-centered-mobile
-							">
-						<strong class="has-text-white hero-heading">Furo</strong>
-					</h1>
-					<h2 class="
-								is-size-4 is-size-5-mobile
-								has-text-left
-								has-text-centered-mobile
-								has-text-white
-							">
-						Not a furry for sure
-					</h2>
-				</div>
-				<br>
-				<div class="columns is-mobile mt-4" id="main-section-buttons">
-					
-					
-				</div>
-			</div>
-			<div class="column">
-				<div class="has-text-right has-text-centered-mobile">
-					<figure class="animation-float" id="herologoback" style="
-								display: inline-block;
-								position: relative;
-								height: 18.3125rem;
-								width: 12.375rem;
-							">
-						<img id="herologo" src="./img/furo.png" style="height: 12.25rem; width: 12.25rem" alt="hero logo">
-					</figure>
-				</div>
-			</div>
-		</div>
-	</section>
-	<script src="js/main.js"></script>
-</body></html>
+    <body>
+        <div class="topTabs">
+            <button onclick="switchTab(1)">Home</button>
+            <button onclick="switchTab(2)">About me</button>
+            <button onclick="switchTab(3)">FNF mods</button>
+        </div>
+        <div id="tab1" class="tabs">
+            <div class="title">
+                <h1>Furo's website</h1>
+                <p class="subtitle" id="modifyableQuote">text.english.furoyt.swagText[64]</p>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>Social media accounts</h3>
+                <ul class="socialMedia">
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://twitter.com/@furoyt_', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Twitter.svg"
+                            width="20px" style="vertical-align: middle;"/> Twitter main account</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://dsc.gg/furo', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Discord.svg"
+                            width="20px" style="vertical-align: middle;"/> Discord server</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://github.com/FuroYT', '_blank')" class="buttonLink"><img
+                            src="./assets/images/GitHub.png"
+                            width="20px" style="vertical-align: middle;"/> Github profile</button>
+                    </li>
+                    <li style="margin-top: 10px; margin-bottom: 10px;">
+                        <button onclick="window.open('https://youtube.com/channel/UCFnKasHMmr61WrSilVb_AZQ', '_blank')" class="buttonLink"><img
+                            src="./assets/images/Youtube.png"
+                            width="20px" style="vertical-align: middle;"/> Youtube channel</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mainPartOfTabs">
+                <h3>Have some of my funky friday videos!</h3>
+                <div style="height:min-content; text-align: left; margin: 5px;">
+                    <ul class="ffVideos">
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JA1v1t43tKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SupCmjvbxB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3E-jK_aDZFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eMpNplTYYhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NyvNt9hWqcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                    </ul>
+                </div>
+             <h3>Have some of my fnf videos!</h3>
+                <div style="height:min-content; text-align: left; margin: 5px;">
+                    <ul class="fnfVideos">
+                        <li><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6AJ8w43jc00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                   </ul>
+               </div>
+            </div>
+         </div>
+         <div id="tab2" class="tabs" style="display: none;">
+             <div class="title">
+                 <h2>About me</h2>
+                 <p class="subtitle">This is just who I am!</p>
+             </div>
+             <div class="mainPartOfTabs">
+                 <h3>About me</h3>
+                 <ul class="presentationLines">
+                     <li>He/Him (I'm okay with they/them!)</li>
+                     <li>French (can speak english and a little bit of German)</li>
+                     <li>Currently in high school</li>
+                     <li>Birthday: 20th April</li>
+                 </ul>
+                 <span></span>
+                 <h3>My hobbies/interests</h3>
+                 <ul class="presentationLines">
+                     <li>Videogames (especially fnf mods >:))</li>
+                     <li>Programming (of course...)</li>
+                     <li>I think that's it.</li>
+                 </ul>
+             </div>
+         </div>
+         <div id="tab3" class="tabs" style="display: none;">
+             <div class="title">
+                 <h2>My Friday Night Funkin' mods</h2>
+                 <p class="subtitle">Some of my fnf mods, if you click a mod but it doesn't rederect you somewhere then the mod is not released</p>
+             </div>
+             <div class="mainPartOfTabs">
+                 <ul>
+                     <li class="myStuff">
+                         <div><button onclick="window.open('', '_blank')" class="buttonLink">
+                             <p class="altFont">FNF VS. Doflanico</p>
+                             <p>Doflanico comes into the fnf universe</p>
+                         </button></div>
+                         <div><button onclick="window.open('', '_blank')" class="buttonLink">
+                             <p class="altFont">FNF VS Iron R.O.B.</p>
+                             <p>OMG ITS THAT A SMASH REFERENCE ???!!!</p>
+                         </button></div>
+                         <div><button onclick="window.open('', '_blank')" class="buttonLink">
+                             <p class="altFont">Super Funkin' 64</p>
+                             <p>SPEEDRUN!! WAHOU WAHOU WAWAWAWAWAWAHOU (BLJ reference)</p>
+                         </button></div>
+                     </li>
+                     <li class="myStuff">
+                         <div><button onclick="window.open('https://cdn.discordapp.com/attachments/611380148431749151/903298999954575441/CG5_-_dropthebassonthestereo.rdzip', '_blank')" class="buttonLink">
+                             <p class="altFont">dropthebassonthestereo</p>
+                             <p>parappa gets threatened by charlie green the 5th (Collab with 1257Plays)</p>
+                         </button></div>
+                         <div><button onclick="window.open('https://www.youtube.com/watch?v=WzLUFuFFDS8', '_blank')" class="buttonLink">
+                             <p class="altFont">Closing in</p>
+                             <p>Cole brew (Blue edition) realises he has a blue border around his vision</p>
+                         </button></div>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+    </body>
+     <script src="index.js"></script>
+ </html>
