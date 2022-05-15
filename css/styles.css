@@ -136,7 +136,7 @@ a.has-background-transparent:active{
 }
 
 .hero-heading {
-	background: linear-gradient(90deg, #ff220f 0%, #fdc300 100%);
+	background: linear-gradient(90deg, #1a44ed 0%, #1badec 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
