@@ -45,7 +45,7 @@ body {
 }
 
 .navbar.has-background-transparent.scrolled {
-	background-color: rgb(12, 12, 12) !important;
+	background-color: rgba(12, 12, 12, 0) !important;
 }
 
 .is-sticky {
