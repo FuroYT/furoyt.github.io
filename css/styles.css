@@ -24,7 +24,7 @@ body {
 	top: 0;
 	height: 100vh;
 	width: 100vw;
-	background-image: url('../img/coreherobg.png');
+	background-image: url('../img/mainbg.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -58,23 +58,6 @@ body {
 	max-height: 10rem;
 }
 
-.navbar-item img:hover {
-	cursor: pointer;
-	animation: coreanim 2.625s cubic-bezier(0.76, 0, 0.24, 1) 0ms infinite;
-}
-
-@keyframes coreanim {
-	0% {
-		transform: rotate(360deg);
-	}
-	80% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(0deg);
-	}
-}
-
 .navbar-link:not(.is-arrowless)::after {
 	border-color: white;
 }
@@ -82,6 +65,13 @@ body {
 .navbar a {
 	border-radius: 0.3rem;
 	transition-duration: 400ms;
+}
+
+a.navbar-item-currentpage {
+	background-color: #242424 !important;
+}
+.navbar-item-currentpage img {
+	max-height: 10rem;
 }
 
 a.has-background-transparent:hover {
@@ -142,6 +132,13 @@ a.has-background-transparent:active{
 	-webkit-text-fill-color: transparent;
 }
 
+.portfolio-gradient {
+	background: linear-gradient(90deg, #641aed 0%, #9f1bec 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .section-image {
 	display: inline-block !important;
 	max-height: 10.688rem;
@@ -167,11 +164,6 @@ a.has-background-transparent:active{
 	transition-duration: 400ms;
 }
 
-#download:hover {
-	cursor: pointer;
-	transform: scale(1.1, 1.1);
-}
-
 /* For sections with right aligned content */
 @media (max-width: 768px) {
 	.columns-reverse {
@@ -194,43 +186,6 @@ a.has-background-transparent:active{
 	opacity: 1 !important;
 }
 
-.animation-float {
-	animation-name: float;
-	animation-duration: 3000ms;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes float {
-	0% {
-		transform: translate(0, 0px);
-	}
-	50% {
-		transform: translate(0, -10px);
-	}
-	100% {
-		transform: translate(0, 0px);
-	}
-}
-
-.btn-faq,
-.btn-dl {
-    font-family: 'Poppins', sans-serif;
-    font-size: medium;
-    font-weight: 500;
-	color: white;
-	border: 1px solid whitesmoke;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0);
-	transition-duration: 300ms;
-}
-
-.btn-dl:hover,
-.btn-faq:hover {
-    color: rgb(30, 30, 30);
-    background-color: whitesmoke;
-}
-
 @media screen and (max-width: 768px), print {
     #main-section-buttons {
         margin-top: 1rem !important;
@@ -241,7 +196,7 @@ a.has-background-transparent:active{
 }
 
 /* Sniped from stack overflow, disables text selection */
-* {
+html, body, * {
 	-webkit-touch-callout: none; /* iOS Safari */
 	-webkit-user-select: none; /* Safari */
 	-khtml-user-select: none; /* Konqueror HTML */
