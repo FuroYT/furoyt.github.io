@@ -1,0 +1,109 @@
+[
+    {
+        "name": "Punishment Scaling",
+        "description": "<b>Default scaling (<font color=\"#A4C2F4\">Live [non-indev]</font>):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don’t save) -> <font color=\"#FF9900\">30 Minute Ban</font> -> <font color=\"#FF9900\">1 Hour Ban (60 Minutes)</font> -> <font color=\"#FF8000\">6 Hour Ban (360 Minutes)</font> -> <font color=\"#EA5C02\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F33901\">1 Week Ban (10080 Minutes)</font> -> <font color=\"#FF0000\">1 Month Ban (40320 Minutes) - Warn that next is permanent</font> -> <font color=\"#E20202\">Permanent Ban [Head Staff needed]</font> -> <font color=\"#980000\">U. Permanent Ban [Head Staff needed]</font>\n\n<b>Default scaling (<font color=\"#D5A6BD\">Indev</font> - Lower tolerance - All unappealable unless false):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don’t save) -> <font color=\"#FF9900\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F56001\">1 Week Ban (10080 Minutes) - Warn that next is permanent</font> -> <font color=\"#FF0000\">Permanent Ban [Head Staff needed]</font>"
+    },
+    {
+        "name": "Cheating",
+        "description": "Mainly, animation exploits / modding are fine as long as they are not NSFW nor being promoted, but if someone is promoting their modded client or using cosmetic exploits in an inappropriate way or to gain unfair advantage, it’s an instant unappealable ban.",
+        "punishment": "P. Ban",
+        "punishmentColor": "#FF0000",
+        "fields": [
+            {
+                "text": "Exploits that give movement advantage (flying, speed, click-to-teleport) count as cheating if they are being used to harass, annoy, ‘race into speakers’, or break any other rule. Otherwise, they are fine for use.",
+                "fields": [
+                    {
+                        "text": "Getting into the shop area is forbidden if such an advantage is being used, as it could be considered an annoyance."
+                    },
+                    {
+                        "text": "Using Infinite Yield or similar scripts will be considered as Staff Impersonation."
+                    }
+                ]
+            },
+            {
+                "text": "Proof is essential for this type of ban. Proof must be at least a 20 second video showing what kind of unfair advantage is being given to the users."
+            },
+            {
+                "text": "Modding = Adding cosmetic changes to the client that would not give any unfair advantage to the player; Autoplay is not part of it and is considered an unfair advantage, even if it’s singleplayer only."
+            },
+            {
+                "text": "All bans related to cheating are unappealable regardless of the severity.",
+                "color": "#FF9900"
+            }
+        ]
+    },
+    {
+        "name": "Raiding",
+        "description": "Multiple users (be it a friend group or an intentional disruption group) breaking either the same rule or multiple rules at the same time is a Severity+1 on the highest rule broken. That means that if they decide to do NSFW things, it’s an instant ban for everyone involved.",
+        "fields": [
+            {
+                "text": "Raiding doesn’t necessarily mean a group; Breaking multiple rules at once in order to cause disruption, even if alone, is counted as raiding.",
+                "fields": [
+                    {
+                        "text": "In such a case where a solo user is raiding, a permanent ban is applicable."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "NSFW Actions",
+        "description": "Due to a large number of players being over 17+ and the fact there are users below 13 in the games, we’d want to avoid any NSFW actions in-game. Using the default scaling depending on the game type, but can skip levels depending on the severity.",
+        "fields": [
+            {
+                "text": "W+S’ing will not count unless it’s being used in an inappropriate way, in which case a verbal warning must be given."
+            },
+            {
+                "text": "Bypassing the filters maliciously will result in a ban following the scaling as well <b>except in cases where the display name is the offending item</b> - in which case a ban of 1 week would be put in place."
+            }
+        ]
+    },
+    {
+        "name": "NSFW/Suggestive Avatars",
+        "description": "We have a very low tolerance for what counts as ‘suggestive’ or ‘NSFW’. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
+    },
+    {
+        "name": "Ban Evasion",
+        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as ‘evasion’ from Indev, if caught.]</font>"
+    },
+    {
+        "name": "Staff Annoyance (& Stalking)",
+        "description": "Consistently following staff members into servers they are located in would result in a ban following the default LIVE (regardless of Indev / not) scaling.",
+        "fields": [
+            {
+                "text": "Staff impersonation is considered raiding."
+            }, 
+            {
+                "text": "Breaking additional rules will be considered raiding as well."
+            }
+        ]
+    },
+    {
+        "name": "Staff Harassment",
+        "punishment": "Unappealable P. Ban",
+        "punishmentColor": "#7E0404",
+        "description": "Same as Staff Annoyance, but using alts to avoid bans related to stalking / annoyance.",
+        "fields": [
+            {
+                "text": "Staff Impersonation falls under this category."
+            }
+        ]
+    },
+    {
+        "name": "Same Offense",
+        "description": "If a player keeps doing the same offense over and over, you may skip a scaling level.",
+        "fields": [
+            {
+                "text": "<font size=\"14\">Example: Verbal -> 30 -> 60 -> 1440 instead of Verbal -> 30 -> 60 -> 360 -> 1440</font>"
+            }
+        ]
+    },
+    {
+        "name": "Excessive Toxicity",
+        "description": "This is Roblox we are talking about, so there is bound to be toxic players; That said, if a player gets excessively toxic (as in verbal abuse, NOT spamming ‘ez’), staff members should intervene. The punishment is relative to the severity, but otherwise the scaling is default."
+    },
+    {
+        "name": "Recording without permssion",
+        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded gameplay of a song from the Public branch of the game (after playing against a contributor, for example), please talk with the contributor first before taking action on the player who recorded the songs. The player should not be banned permanently for uploading these songs.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. No exceptions apart from those given permission specifically by the <b><i>lead</i></b> developers"
+    }
+]
