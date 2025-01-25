@@ -5,26 +5,12 @@
     },
     {
         "name": "Cheating",
-        "description": "Mainly, animation exploits / modding are fine as long as they are not NSFW nor being promoted, but if someone is promoting their modded client or using cosmetic exploits in an inappropriate way or to gain unfair advantage, it’s an instant unappealable ban.",
+        "description": "Cheating is of course not allowed as it is not allowed by the Roblox TOS, it’s an instant unappealable ban.",
         "punishment": "P. Ban",
         "punishmentColor": "#FF0000",
         "fields": [
             {
-                "text": "Exploits that give movement advantage (flying, speed, click-to-teleport) count as cheating if they are being used to harass, annoy, ‘race into speakers’, or break any other rule. Otherwise, they are fine for use.",
-                "fields": [
-                    {
-                        "text": "Getting into the shop area is forbidden if such an advantage is being used, as it could be considered an annoyance."
-                    },
-                    {
-                        "text": "Using Infinite Yield or similar scripts will be considered as Staff Impersonation."
-                    }
-                ]
-            },
-            {
                 "text": "Proof is essential for this type of ban. Proof must be at least a 20 second video showing what kind of unfair advantage is being given to the users."
-            },
-            {
-                "text": "Modding = Adding cosmetic changes to the client that would not give any unfair advantage to the player; Autoplay is not part of it and is considered an unfair advantage, even if it’s singleplayer only."
             },
             {
                 "text": "All bans related to cheating are unappealable regardless of the severity.",
