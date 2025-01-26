@@ -20,7 +20,7 @@
     },
     {
         "name": "Raiding",
-        "description": "Multiple users (be it a friend group or an intentional disruption group) breaking either the same rule or multiple rules at the same time is a Severity+1 on the highest rule broken. That means that if they decide to do NSFW things, it’s an instant ban for everyone involved.",
+        "description": "Multiple users (be it a friend group or an intentional disruption group) breaking either the same rule or multiple rules at the same time is a Severity+1 on the highest rule broken.",
         "fields": [
             {
                 "text": "Raiding doesn’t necessarily mean a group; Breaking multiple rules at once in order to cause disruption, even if alone, is counted as raiding.",
@@ -33,20 +33,8 @@
         ]
     },
     {
-        "name": "NSFW Actions",
-        "description": "Due to a large number of players being over 17+ and the fact there are users below 13 in the games, we’d want to avoid any NSFW actions in-game. Using the default scaling depending on the game type, but can skip levels depending on the severity.",
-        "fields": [
-            {
-                "text": "W+S’ing will not count unless it’s being used in an inappropriate way, in which case a verbal warning must be given."
-            },
-            {
-                "text": "Bypassing the filters maliciously will result in a ban following the scaling as well <b>except in cases where the display name is the offending item</b> - in which case a ban of 1 week would be put in place."
-            }
-        ]
-    },
-    {
-        "name": "NSFW/Suggestive Avatars",
-        "description": "We have a very low tolerance for what counts as ‘suggestive’ or ‘NSFW’. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
+        "name": "Suggestive Avatars",
+        "description": "We have a very low tolerance for what counts as ‘suggestive’. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
     },
     {
         "name": "Ban Evasion",
