@@ -34,11 +34,11 @@
     },
     {
         "name": "Suggestive Avatars",
-        "description": "We have a very low tolerance for what counts as ‘suggestive'. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
+        "description": "We have a very low tolerance for what counts as 'suggestive'. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
     },
     {
         "name": "Ban Evasion",
-        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as ‘evasion' from Indev, if caught.]</font>"
+        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as 'evasion' from Indev, if caught.]</font>"
     },
     {
         "name": "Staff Annoyance (& Stalking)",
@@ -74,7 +74,7 @@
     },
     {
         "name": "Excessive Toxicity",
-        "description": "This is Roblox we are talking about, so there is bound to be toxic players; That said, if a player gets excessively toxic (as in verbal abuse, NOT spamming ‘ez'), staff members should intervene. The punishment is relative to the severity, but otherwise the scaling is default."
+        "description": "This is Roblox we are talking about, so there is bound to be toxic players; That said, if a player gets excessively toxic (as in verbal abuse, NOT spamming 'ez'), staff members should intervene. The punishment is relative to the severity, but otherwise the scaling is default."
     },
     {
         "name": "Recording unreleased content without permssion",
