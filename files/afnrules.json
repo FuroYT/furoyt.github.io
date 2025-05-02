@@ -1,11 +1,11 @@
 [
     {
         "name": "Punishment Scaling",
-        "description": "<b>Default scaling (<font color=\"#A4C2F4\">Live [non-indev]</font>):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don’t save) -> <font color=\"#FF9900\">30 Minute Ban</font> -> <font color=\"#FF9900\">1 Hour Ban (60 Minutes)</font> -> <font color=\"#FF8000\">6 Hour Ban (360 Minutes)</font> -> <font color=\"#EA5C02\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F33901\">1 Week Ban (10080 Minutes)</font> -> <font color=\"#FF0000\">1 Month Ban (40320 Minutes) - Warn that next is permanent</font> -> <font color=\"#E20202\">Permanent Ban [Head Staff needed]</font> -> <font color=\"#980000\">U. Permanent Ban [Head Staff needed]</font>\n\n<b>Default scaling (<font color=\"#D5A6BD\">Indev</font> - Lower tolerance - All unappealable unless false):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don’t save) -> <font color=\"#FF9900\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F56001\">1 Week Ban (10080 Minutes) - Warn that next is permanent</font> -> <font color=\"#FF0000\">Permanent Ban [Head Staff needed]</font>"
+        "description": "<b>Default scaling (<font color=\"#A4C2F4\">Live [non-indev]</font>):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don't save) -> <font color=\"#FF9900\">30 Minute Ban</font> -> <font color=\"#FF9900\">1 Hour Ban (60 Minutes)</font> -> <font color=\"#FF8000\">6 Hour Ban (360 Minutes)</font> -> <font color=\"#EA5C02\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F33901\">1 Week Ban (10080 Minutes)</font> -> <font color=\"#FF0000\">1 Month Ban (40320 Minutes) - Warn that next is permanent</font> -> <font color=\"#E20202\">Permanent Ban [Head Staff needed]</font> -> <font color=\"#980000\">U. Permanent Ban [Head Staff needed]</font>\n\n<b>Default scaling (<font color=\"#D5A6BD\">Indev</font> - Lower tolerance - All unappealable unless false):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don't save) -> <font color=\"#FF9900\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F56001\">1 Week Ban (10080 Minutes) - Warn that next is permanent</font> -> <font color=\"#FF0000\">Permanent Ban [Head Staff needed]</font>"
     },
     {
         "name": "Cheating",
-        "description": "Cheating is of course not allowed as it is not allowed by the Roblox TOS, it’s an instant unappealable ban.",
+        "description": "Cheating is of course not allowed as it is not allowed by the Roblox TOS, it's an instant unappealable ban.",
         "punishment": "P. Ban",
         "punishmentColor": "#FF0000",
         "fields": [
@@ -23,7 +23,7 @@
         "description": "Multiple users (be it a friend group or an intentional disruption group) breaking either the same rule or multiple rules at the same time is a Severity+1 on the highest rule broken.",
         "fields": [
             {
-                "text": "Raiding doesn’t necessarily mean a group; Breaking multiple rules at once in order to cause disruption, even if alone, is counted as raiding.",
+                "text": "Raiding doesn't necessarily mean a group; Breaking multiple rules at once in order to cause disruption, even if alone, is counted as raiding.",
                 "fields": [
                     {
                         "text": "In such a case where a solo user is raiding, a permanent ban is applicable."
@@ -34,11 +34,11 @@
     },
     {
         "name": "Suggestive Avatars",
-        "description": "We have a very low tolerance for what counts as ‘suggestive’. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
+        "description": "We have a very low tolerance for what counts as ‘suggestive'. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
     },
     {
         "name": "Ban Evasion",
-        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as ‘evasion’ from Indev, if caught.]</font>"
+        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as ‘evasion' from Indev, if caught.]</font>"
     },
     {
         "name": "Staff Annoyance (& Stalking)",
@@ -74,10 +74,10 @@
     },
     {
         "name": "Excessive Toxicity",
-        "description": "This is Roblox we are talking about, so there is bound to be toxic players; That said, if a player gets excessively toxic (as in verbal abuse, NOT spamming ‘ez’), staff members should intervene. The punishment is relative to the severity, but otherwise the scaling is default."
+        "description": "This is Roblox we are talking about, so there is bound to be toxic players; That said, if a player gets excessively toxic (as in verbal abuse, NOT spamming ‘ez'), staff members should intervene. The punishment is relative to the severity, but otherwise the scaling is default."
     },
     {
-        "name": "Recording without permssion",
-        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded gameplay of a song from the Public branch of the game (after playing against a contributor, for example), please talk with the contributor first before taking action on the player who recorded the songs. The player should not be banned permanently for uploading these songs.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. No exceptions apart from those given permission specifically by the <b><i>lead</i></b> developers"
+        "name": "Recording unreleased content without permssion",
+        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded the gameplay of a unreleased song from the Public branch of the game (ex: after playing against a developer), please talk with the conserned person before taking action.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. No exceptions apart from those given permission specifically by the <b><i>lead</i></b> developers"
     }
 ]
