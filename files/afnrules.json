@@ -78,6 +78,6 @@
     },
     {
         "name": "Recording unreleased content without permssion",
-        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded the gameplay of a unreleased song from the Public branch of the game (ex: after playing against a developer), please talk with the conserned person before taking action.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. No exceptions apart from those given permission specifically by the <b><i>lead</i></b> developers"
+        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded the gameplay of a unreleased song from the Public branch of the game (ex: after playing against a developer), please talk with the concerned person before taking action.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. Only exceptions is from the <b><i>lead</i></b> developers"
     }
 ]
