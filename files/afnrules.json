@@ -33,8 +33,10 @@
         ]
     },
     {
-        "name": "Suggestive Avatars",
-        "description": "We have a very low tolerance for what counts as 'suggestive'. Please follow the INDEV SCALING in the main game, and UNAPPEALABLE REMOVAL in the indev version."
+        "name": "In Game Avatars",
+        "punishment": "Warning / Week Ban",
+        "punishmentColor": "#ff5e00",
+        "description": "Please do not wear avatars that contains any innapropriate accessories (ex. shirt shaders) and keep avatars in the game's age rating (being 5+ as of writing this)"
     },
     {
         "name": "Ban Evasion",
