@@ -1,7 +1,7 @@
 [
     {
         "name": "Punishment Scaling",
-        "description": "<b>Default scaling (<font color=\"#A4C2F4\">Live [non-indev]</font>):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don't save) -> <font color=\"#FF9900\">30 Minute Ban</font> -> <font color=\"#FF9900\">1 Hour Ban (60 Minutes)</font> -> <font color=\"#FF8000\">6 Hour Ban (360 Minutes)</font> -> <font color=\"#EA5C02\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F33901\">1 Week Ban (10080 Minutes)</font> -> <font color=\"#FF0000\">1 Month Ban (40320 Minutes) - Warn that next is permanent</font> -> <font color=\"#E20202\">Permanent Ban [Head Staff needed]</font> -> <font color=\"#980000\">U. Permanent Ban [Head Staff needed]</font>\n\n<b>Default scaling (<font color=\"#D5A6BD\">Indev</font> - Lower tolerance - All unappealable unless false):</b>\n<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> (warns don't save) -> <font color=\"#FF9900\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F56001\">1 Week Ban (10080 Minutes) - Warn that next is permanent</font> -> <font color=\"#FF0000\">Permanent Ban [Head Staff needed]</font>"
+        "description": "<font color=\"#6AA84F\">Verbal/1 Minute Ban</font> -> <font color=\"#FF9900\">30 Minute Ban</font> -> <font color=\"#FF9900\">1 Hour Ban (60 Minutes)</font> -> <font color=\"#FF8000\">6 Hour Ban (360 Minutes)</font> -> <font color=\"#EA5C02\">1 Day Ban (1440 Minutes)</font> -> <font color=\"#F33901\">1 Week Ban (10080 Minutes)</font> -> <font color=\"#FF0000\">1 Month Ban (40320 Minutes) - Beware that next is permanent</font> -> <font color=\"#E20202\">Permanent Ban [Head Staff needed]</font> -> <font color=\"#980000\">U. Permanent Ban [Head Staff needed]</font>"
     },
     {
         "name": "Cheating",
@@ -80,6 +80,6 @@
     },
     {
         "name": "Recording unreleased content without permssion",
-        "description": "<b><font color=\"#A4C2F4\">[PUBLIC SPECIFIC]</font></b>\nIf a player has recorded the gameplay of a unreleased song from the Public branch of the game (ex: after playing against a developer), please talk with the concerned person before taking action.\n\n<b><font color=\"#D5A6BD\">[INDEV SPECIFIC]</font></b>\nIf a player has recorded something without permission from the Indev branch of the game, it should result in a permanent removal from Indev. Only exceptions is from the <b><i>lead</i></b> developers"
+        "description": "You cannot record (nor publish) gameplay of a unreleased song (ex: after playing against a developer) without explicit permission"
     }
 ]
