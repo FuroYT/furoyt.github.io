@@ -44,7 +44,7 @@
     },
     {
         "name": "Staff Annoyance (& Stalking)",
-        "description": "Consistently following staff members into servers they are located in would result in a ban following the default LIVE (regardless of Indev / not) scaling.",
+        "description": "Consistently following staff members into servers they are located in would result in a ban",
         "fields": [
             {
                 "text": "Staff impersonation is considered raiding."
