@@ -33,6 +33,23 @@
         ]
     },
     {
+        "name": "Innapropriate Actions",
+        "punishment": "Warning / Week Ban",
+        "punishmentColor": "#ff5e00",
+        "description": "This includes, but is not limited to - W+S'ing any other player, having conversions regarding mature or problematic topics, and acting in an innapropriate way towards any other player.",
+        "fields": [
+            {
+                "text": "Staff is not obligated to verbally warn you if you are behaving inappropriately and may instead kick you or imprison you as a form of warning."
+            },
+            {
+                "text": "If Staff Members find your rule break to be severe, they are not obligated to verbally warn you and may instead temporarily ban you."
+            },
+            {
+                "text": "Multiple violations can and will result in a ban or permanent ban."
+            }
+        ]
+    },
+    {
         "name": "In Game Avatars",
         "punishment": "Warning / Week Ban",
         "punishmentColor": "#ff5e00",
@@ -40,7 +57,9 @@
     },
     {
         "name": "Ban Evasion",
-        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban) <font color=\"#92ACD8\">[All public bans should be considered as 'evasion' from Indev, if caught.]</font>"
+        "punishment": "P. Ban",
+        "punishmentColor": "#FF0000",
+        "description": "Evading bans using alts is not tolerated and will result in your ban becoming unappealable and a + 1 scaling for each iteration of this happening. (The alt receiving a permanent ban)"
     },
     {
         "name": "Staff Annoyance (& Stalking)",
